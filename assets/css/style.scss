@@ -1,6 +1,4 @@
----
----
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+--- --- @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
 
 :root {
   --bg-color: #0f1115;
@@ -153,7 +151,7 @@ h1.massive-title {
   gap: 3rem;
   justify-content: center;
   padding: 4rem 0;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .stat-item h3 {
@@ -171,7 +169,7 @@ h1.massive-title {
 
 /* ✅ 드라마틱한 최종 CTA (Footer) */
 .footer-cta {
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('https://source.unsplash.com/random/1920x600/?technology');
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('https://source.unsplash.com/random/1920x600/?technology');
   background-size: cover;
   background-attachment: fixed;
   padding: 8rem 2rem;
@@ -180,12 +178,23 @@ h1.massive-title {
 
 /* Utility Animations */
 @keyframes fadeUp {
-  to { opacity: 1; transform: translateY(0); }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.stagger-1 { animation-delay: 0.1s; }
-.stagger-2 { animation-delay: 0.2s; }
-.stagger-3 { animation-delay: 0.3s; }
+.stagger-1 {
+  animation-delay: 0.1s;
+}
+
+.stagger-2 {
+  animation-delay: 0.2s;
+}
+
+.stagger-3 {
+  animation-delay: 0.3s;
+}
 
 /* AdSense Slot Styles */
 .ad-slot {
@@ -194,38 +203,40 @@ h1.massive-title {
   border: 1px dashed var(--glass-border);
   border-radius: var(--card-radius);
   text-align: center;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
   color: #666;
 }
 
-
-/* ✅ Premium Glassmorphism Table */
+/* ✅ Premium Table Styles (Restored) */
 table {
   width: 100%;
-  border-collapse: collapse;
-  margin: 3rem 0;
-  background: var(--glass-bg);
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 2rem 0;
   border-radius: var(--card-radius);
   overflow: hidden;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: var(--glass-bg);
   border: 1px solid var(--glass-border);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 th {
   background: rgba(255, 255, 255, 0.05);
-  color: #fff;
-  font-weight: 600;
+  color: var(--text-primary);
+  font-weight: 700;
   text-transform: uppercase;
+  font-size: 0.85rem;
   letter-spacing: 0.05em;
-  padding: 1.2rem 1.5rem;
+  padding: 1.25rem 1.5rem;
   text-align: left;
   border-bottom: 1px solid var(--glass-border);
 }
 
 td {
-  padding: 1.2rem 1.5rem;
+  padding: 1.25rem 1.5rem;
   color: var(--text-secondary);
   border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  transition: background 0.2s ease;
 }
 
 tr:last-child td {
@@ -237,11 +248,9 @@ tr:hover td {
   color: var(--text-primary);
 }
 
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  table {
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
+/* Add responsive wrapper */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: var(--card-radius);
+  margin: 2rem 0;
 }
