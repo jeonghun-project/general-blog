@@ -2,7 +2,7 @@ title: "Crypto & Tech Insights"
 email: contact@example.com
 description: >-
   Premium insights on Cryptocurrency, Economy, and Technology.
-baseurl: ""
+baseurl: "/general-blog"
 url: "https://jeonghun-project.github.io"
 
 # SEO & Permalinks (✅ 키워드 URL)
