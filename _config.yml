@@ -1,19 +1,20 @@
-title: "Crypto & Tech Insights"
+title: Crypto & Tech Insights
 email: contact@example.com
-description: >-
-  Premium insights on Cryptocurrency, Economy, and Technology.
-baseurl: "/general-blog"
-url: "https://jeonghun-project.github.io"
-
-# SEO & Permalinks (✅ 키워드 URL)
+description: Premium insights on Cryptocurrency, Economy, and Technology.
+baseurl: /general-blog
+url: https://jeonghun-project.github.io
 permalink: /:year/:month/:day/:title/
-
-# Build settings
-theme: null # We are using custom layouts now
+theme: null
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
 sass:
   style: compressed
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+markdown: kramdown
