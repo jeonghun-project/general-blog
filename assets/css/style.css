@@ -254,3 +254,15 @@ tr:hover td {
   border-radius: var(--card-radius);
   margin: 2rem 0;
 }
+
+/* ✅ Post Content Images */
+.post-content img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--card-radius);
+  margin: 3rem 0;
+  display: block;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+}
