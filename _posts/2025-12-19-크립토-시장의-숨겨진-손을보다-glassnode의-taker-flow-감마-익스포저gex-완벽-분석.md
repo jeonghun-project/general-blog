@@ -3,7 +3,7 @@ layout: post
 title: "크립토 시장의 숨겨진 손을보다: Glassnode의 'Taker-Flow' 감마 익스포저(GEX) 완벽 분석"
 date: "2025-12-19"
 author: "Jaden"
-featured_image: images/crypto_gamma_header.png
+featured_image: https://raw.githubusercontent.com/jeonghun-project/general-blog/main/assets/images/2025-12-19-크립토-시장의-숨겨진-손을보다-glassnode의-taker-flow-감마-익스포저gex-완벽-분석-featured.png
 ---
 
 ## 서론: 변동성의 파도를 읽는 새로운 방법
@@ -14,7 +14,7 @@ featured_image: images/crypto_gamma_header.png
 
 하지만 이 강력한 도구도 코인 시장에선 무용지물이었습니다. 왜일까요? 주식 시장의 공식이 코인 판엔 맞지 않았기 때문입니다. 오늘 소개할 **Glassnode의 새로운 'Taker-Flow' 기반 GEX**는 바로 이 문제를 해결했습니다. 이제 우리는 시장의 '숨겨진 손', 딜러들의 패를 읽을 수 있게 되었습니다.
 
-![Analysis Header](images/crypto_gamma_header.png)
+![Analysis Header](https://raw.githubusercontent.com/jeonghun-project/general-blog/main/assets/images/2025-12-19-크립토-시장의-숨겨진-손을보다-glassnode의-taker-flow-감마-익스포저gex-완벽-분석-featured.png)
 
 ## 1. 왜 기존 공식은 코인 시장에서 실패했나?
 
