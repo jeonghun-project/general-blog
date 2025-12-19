@@ -12,7 +12,7 @@ featured_image: https://raw.githubusercontent.com/jeonghun-project/general-blog/
 
 지금까지 많은 트레이더들은 주식 시장에서 사용되던 전통적인 감마 노출 지표를 암호화폐 시장에 그대로 대입하려 노력해왔습니다. 하지만 암호화폐 시장의 톡톡 튀는 변동성과 독특한 참여자 구조 때문에, 기존 지표는 종종 잘못된 신호를 보내곤 했습니다. 글래스노드의 이번 새로운 지표는 이러한 한계를 극복하고, 딜러(Dealer)들의 포지션을 더욱 정교하게 파악하여 시장의 변동성을 예측하는 데 큰 도움을 줄 것으로 기대됩니다.
 
-![Glassnode Concept](https://raw.githubusercontent.com/jeonghun-project/general-blog/main/assets/images/2025-12-19-글래스노드-암호화폐-옵션-시장의-판도를-바꿀-taker-flow-기반-감마-노출-지표-도입-featured.png)
+
 
 이 글에서는 글래스노드가 왜 새로운 지표를 개발했는지, 그리고 이것이 우리와 같은 투자자들에게 어떤 통찰력을 줄 수 있는지 심층적으로 분석해 보겠습니다.
 
