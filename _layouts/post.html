@@ -16,9 +16,9 @@ layout: default
     </header>
 
     <!-- Featured Image (3D Tilt) -->
-    {% if page.featured_image %}
+    {% if page.image %}
     <div class="media-container">
-        {% assign img_src = page.featured_image %}
+        {% assign img_src = page.image %}
         {% if img_src contains "/images/placeholder.png" %}
         {% assign img_src = "https://source.unsplash.com/random/1200x600/?crypto,technology" %}
         {% else %}
