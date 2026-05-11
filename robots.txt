@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://toreta.uk/general-blog/sitemap.xml
